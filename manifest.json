@@ -9,10 +9,10 @@
         "*://geocaching.hu/geomap/*"
       ],
       "js": [
-        "hucachetools_gm.js"
+        "gm.js"
       ],
       "css": [
-        "hucachetools_gm.css"
+        "gm.css"
       ]
     }
   ],
@@ -21,7 +21,8 @@
     "*://geocaching.hu/*"
   ],
   "web_accessible_resources": [
-    "functions.js"
+    "gm_functions.js",
+    "gm_others.js"
   ],
   "icons": {
     "16": "/images/hucachetools16.png",

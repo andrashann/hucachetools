@@ -1,0 +1,33 @@
+{
+  "name": "HuCacheTools",
+  "description": "Extends the functionality of geocaching.hu",
+  "version": "0.1.0",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": [
+        "*://geocaching.hu/geomap/*"
+      ],
+      "js": [
+        "hucachetools_gm.js"
+      ],
+      "css": [
+        "hucachetools_gm.css"
+      ]
+    }
+  ],
+  "permissions": [
+    "activeTab",
+    "*://geocaching.hu/*"
+  ],
+  "web_accessible_resources": [
+    "functions.js"
+  ],
+  "icons": {
+    "16": "/images/hucachetools16.png",
+    "32": "/images/hucachetools32.png",
+    "48": "/images/hucachetools48.png",
+    "128": "/images/hucachetools128.png"
+  },
+  "homepage_url": "https://github.com/andrashann/hucachetools"
+}

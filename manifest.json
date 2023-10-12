@@ -28,5 +28,10 @@
     "48": "/images/hucachetools48.png",
     "128": "/images/hucachetools128.png"
   },
-  "homepage_url": "https://github.com/andrashann/hucachetools"
+  "homepage_url": "https://github.com/andrashann/hucachetools",
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{b5aa3a46-e4a1-4f0e-8df7-610025b1e92c}"
+    }
+  }
 }

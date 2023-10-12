@@ -1,6 +1,14 @@
 // add new base layer to baseMaps variable
-overlayMaps["WaymarkedTrails"] = L.tileLayer(
+overlayMaps["WaymarkedTrails Hiking"] = L.tileLayer(
   "https://tile.waymarkedtrails.org/hiking/{z}/{x}/{y}.png",
+  { minZoom: 5, maxZoom: 18 }
+);
+overlayMaps["WaymarkedTrails Cycling"] = L.tileLayer(
+  "https://tile.waymarkedtrails.org/cycling/{z}/{x}/{y}.png",
+  { minZoom: 5, maxZoom: 18 }
+);
+overlayMaps["WaymarkedTrails MTB"] = L.tileLayer(
+  "https://tile.waymarkedtrails.org/mtb/{z}/{x}/{y}.png",
   { minZoom: 5, maxZoom: 18 }
 );
 overlayMaps["Védett területek"] = L.tileLayer.wms(

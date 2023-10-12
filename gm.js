@@ -2,11 +2,11 @@
 document
   .getElementsByTagName("head")[0]
   .appendChild(document.createElement("script")).src =
-  "https://cdnjs.cloudflare.com/ajax/libs/fast-xml-parser/3.21.1/parser.min.js";
+  chrome.runtime.getURL("lib/parser.js");
 document
   .getElementsByTagName("head")[0]
   .appendChild(document.createElement("script")).src =
-  "https://cdn.jsdelivr.net/npm/togpx@0.5.4/togpx.js";
+  chrome.runtime.getURL("lib/togpx.js");
 
 // buttons to add to the map
 const newButtons = [
